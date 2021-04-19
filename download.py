@@ -3,8 +3,8 @@ import wget, os
 print('Beginning file download with wget module')
 location = os.getcwd()
 no = 1
-name = '10GB.bin'
-url = 'https://speed.hetzner.de/10GB.bin'
+name = '1GB.bin'
+url = 'https://speed.hetzner.de/1GB.bin'
 
 
 print("The file is downloading in "+location)
