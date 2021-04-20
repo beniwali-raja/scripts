@@ -3,8 +3,8 @@ import wget, os
 print('Beginning file download with wget module')
 location = os.getcwd()
 no = 1
-name = '1GB.bin'
-url = 'https://test.bendrive.workers.dev/0:/1GB.bin'
+name = 'test1Gb.db'
+url = 'http://speedtest.ftp.otenet.gr/files/test1Gb.db'
 
 
 print("\nThe file is downloading in "+location)
