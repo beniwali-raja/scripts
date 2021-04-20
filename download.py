@@ -4,7 +4,7 @@ print('Beginning file download with wget module')
 location = os.getcwd()
 no = 1
 name = '1GB.bin'
-url = 'https://bendrive.ml/0:/1GB.bin'
+url = 'https://test.bendrive.workers.dev/0:/1GB.bin'
 
 
 print("\nThe file is downloading in "+location)
