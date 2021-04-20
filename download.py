@@ -7,12 +7,12 @@ name = '1GB.bin'
 url = 'https://speed.hetzner.de/1GB.bin'
 
 
-print("The file is downloading in "+location)
+print("\nThe file is downloading in "+location)
 while no:
-    print(f"Downloading file number {no}")
+    print(f"\n=====>  Downloading file number {no}  <=====\n")
     wget.download(url, location)
-    print(f"download number {no} completed. Now deleting")
+    print(f"\ndownload number {no} completed. Now deleting \n")
     path = os.path.join(location, name)
     os.remove(path)
-    print("Deleted successfully")
+    print(f"\n=====>  Deleted file number {no} successfully  <=====\n")
     no+=1
